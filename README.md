@@ -6,12 +6,8 @@ How to run.
 5. Run `source devel/setup.bash`
 6. Run `roslaunch turtlebot3_gazebo midterm_turtlebot3_world.launch`
 7. Open other terminal
-8. cd to folder contains file `run.py`
-9. Run `python3 run.py`
-10. Use `a,s,space,w,d,x` to control robot
-	`a` to turn left
-	`w` to move up
-	`d` to turn right
-	`x` to move down
-	`s,space` to stop
+8. Run `roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=$HOME/map.yaml`
+9. Select endpoint and let's see robots find out the way to goal.
 	
+	
+
